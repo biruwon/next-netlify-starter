@@ -5,11 +5,8 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-[context.production.environment]
-  NETLIFY_VERBOSE = "true"
+[[plugins]]
+  package = "netlify-plugin-its-done"
 
 [context.deploy-preview.environment]
   NETLIFY_VERBOSE = "true"
-
-[context.branch-deploy.environment]
-  NETLIFY_VERBOSE = "debug"
