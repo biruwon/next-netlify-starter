@@ -10,3 +10,7 @@
 
 [context.deploy-preview.environment]
   NETLIFY_VERBOSE = "true"
+
+[[redirects]]
+  from = "/cuties"
+  to = "https://www.petsofnetlify.com"
