@@ -14,3 +14,8 @@
 [[redirects]]
   from = "/cuties"
   to = "https://www.petsofnetlify.com"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    my-header= "netlify rocks"
