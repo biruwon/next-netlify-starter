@@ -18,7 +18,7 @@ export default function Home() {
           This is an edit for the onboarding! :)
         </p>
 
-        <form name="contact" method="POST" data-netlify="true" action="https://petsofnetlify.com/">
+        <form name="contact" method="POST" data-netlify="true">
           <p>
             <label>Your Name: <input type="text" name="name" /></label>
           </p>
