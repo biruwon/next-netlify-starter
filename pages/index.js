@@ -18,22 +18,14 @@ export default function Home() {
           This is an edit for the onboarding! :)
         </p>
 
-        <form 
-          name="contact"
-          method="POST" 
-          netlify
-        >
+        <form name="contact" method="POST" data-netlify="true" action="/thanks">
+          <input name="name" id="name"></input>
           <input
             type="hidden"
             name="form-name"
             value="contact"
           />
-          <p>
-            <label>Your Name: <input type="text" name="name" /></label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
+          <button type="submit">Send</button>
         </form>
 
       </main>
