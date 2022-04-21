@@ -4,3 +4,7 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[[edge_functions]]
+  path = "/hello/name"
+  function = "hello"
