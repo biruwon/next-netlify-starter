@@ -18,7 +18,7 @@ export default function Home() {
           This is an edit for the onboarding! :)
         </p>
 
-        <form name="contact" method="POST" data-netlify="true" action="/thanks">
+        <form name="contact" method="POST" data-netlify="true">
           <input name="name" id="name"></input>
           <input
             type="hidden"
