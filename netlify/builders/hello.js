@@ -11,7 +11,7 @@ async function handler(event, context) {
     <!DOCTYPE html>
       <html>
         <body>
-          ODBs test!
+          ODBs test builders path!
         </body>
     </html>
     `,
