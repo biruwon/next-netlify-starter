@@ -4,3 +4,18 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[[plugins]]
+  package = "netlify-plugin-its-done"
+
+[context.deploy-preview.environment]
+  NETLIFY_VERBOSE = "true"
+
+[[redirects]]
+  from = "/cuties"
+  to = "https://www.petsofnetlify.com"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    my-header= "netlify rocks"

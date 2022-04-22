@@ -14,7 +14,20 @@ export default function Home() {
         <Header title="Welcome to my app!" />
         <p className="description">
           Get started by editing <code>pages/index.js</code>
+
+          This is an edit for the onboarding! :)
         </p>
+
+        <form name="contact" method="POST" data-netlify="true">
+          <input name="name" id="name"></input>
+          <input
+            type="hidden"
+            name="form-name"
+            value="contact"
+          />
+          <button type="submit">Send</button>
+        </form>
+
       </main>
 
       <Footer />
